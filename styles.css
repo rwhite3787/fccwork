@@ -1,0 +1,20 @@
+form {
+  display: block;
+  margin: 15px;
+}
+
+label, legend {
+  display: block;
+  margin: 15px 0;
+}
+
+.inline {
+  display: inline-block;
+}
+
+input[type=
+"submit"] {
+  display: block;
+  margin: 20px auto;
+
+}
