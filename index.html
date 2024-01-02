@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Board Game Bonanza!</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">What Board Games Do You Love?</h1>
+    <p id="description">Tell us all about the games you play with your family and friends.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">What's your name? <input id="name" type="text" placeholder="Reiner Knizia" required></label>
+      <label for="email" id="email-label">What's your email address? <input id="email" type="email" placeholder="ilovegames@meeples.com" required></label>
+      <label for="number" id="number-label">How many board games do you own? <input id="number" type="number" placeholder="500" min="0" max="10000">
+      
+      <label for="dropdown" class="inline">Do you play games every week?</label>
+      <select id="dropdown" class="inline">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+      <legend>What's your favorite player color?</legend>
+      <input type="radio" name="playercolor" value="blue">Blue</input>
+      <input type="radio" name="playercolor" value="red">Red</input>
+      <input type="radio" name="playercolor" value="yellow">Yellow</input>
+      <input type="radio" name="playercolor" value="green">Green</input>
+      <input type="radio" name="playercolor" value="white">White</input>
+      <input type="radio" name="playercolor" value="other">Other</input>
+      <legend> What's your favorite type of game? </legend>
+      <input type="checkbox" name="genre" value="party">Party</input>
+      <input type="checkbox" name="genre" value="euro">Euro</input>
+      <input type="checkbox" name="genre" value="card">Card</input>
+      <input type="checkbox" name="genre" value="rollwrite">Roll and Write</input>
+      <input type="checkbox" name="genre" value="solo">Solo</input>
+      <label for="favgames">What are some of your favorite games?</label><textarea placeholder="Uno, Monopoly..." id="favgames"></textarea>
+      <input type="submit" text="Submit" id="submit">
+  </body>
+</html>
